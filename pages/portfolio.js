@@ -1,6 +1,6 @@
 import Header from '../components/Header';
 
-function Portfolio() {
+const Portfolio = () => {
     return (
         <div className="flex">
             <Header />
