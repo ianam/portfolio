@@ -1,6 +1,6 @@
 import Header from '../components/Header';
 
-function About() {
+const About = () => {
     return (
         <div className="flex">
             <Header />
