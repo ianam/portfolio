@@ -1,0 +1,41 @@
+@keyframes underline {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+.link-underline::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: currentColor;
+    transition: width 0.5s;
+}
+
+.link-underline:hover::after {
+    width: 100%;
+}
+
+.link-yellow::after {
+    background-color: #ffbe0b;
+}
+
+.link-orange::after {
+    background-color: #fb5607;
+}
+
+.link-pink::after {
+    background-color: #ff006e;
+}
+
+.link-purple::after {
+    background-color: #8338ec;
+}
+
+.link-blue::after {
+    background-color: #3a86ff;
+}
