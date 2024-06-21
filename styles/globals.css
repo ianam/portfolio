@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Define page-fade in antimation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+/* Apply fade-in to page content */
+.page-transition {
+    animation: fadeIn 0.5 ease-in-out;
+}
