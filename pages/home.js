@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className="flex">
             <Header />
-            <div className="p-4 w-screen bg-[#3C4251] pt-8">
+            <div className="p-4 w-screen bg-custom pt-8">
                 <section className="flex flex-row items-center bg-[#EFF1F0] rounded shadow-lg">
                     <img className="rounded-full shadow-xl border-8 border-[#A4AEBA] -my-6 ml-4" src="/images/IMG_4199.jpeg" width="300" height="300" />
                     <div className="p-5">

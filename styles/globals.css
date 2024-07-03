@@ -11,3 +11,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.bg-custom {
+    background-image: url('/images/cream_pixels.png');
+}
